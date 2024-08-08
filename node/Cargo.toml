@@ -15,7 +15,7 @@ log = "0.4.20"
 codec = { package = "parity-scale-codec", version = "3.0.0" }
 serde = { version = "1.0.188", features = ["derive"] }
 jsonrpsee = { version = "0.20.2", features = ["server"] }
-futures = "0.3.28"
+futures = "0.3.30"
 
 # Local
 parachain-template-runtime = { path = "../runtime" }
